@@ -16,7 +16,7 @@ function getVideosTemplate($videos, $videos_id_div)
 	} else {
 		for ($i = 0; $i < count($videos); $i++) {
 			echo "
-				<div class='videoCard-" . $videos[$i]->video_id . " col-12 col-sm-6 col-md-6 col-lg-4'>
+				<div class='videoCard-" . $videos[$i]->video_id . " col-12 col-sm-6 col-md-6 col-lg-3'>
 				<a  href='" . WEBSITE_URL . "/video/selected-video/selected-video.php?video=" . $videos[$i]->video_id . "'>
 				<img style='width: 100%' src='https://img.youtube.com/vi/" . $videos[$i]->video_link . "/hqdefault.jpg'>
 				</a>
