@@ -9,6 +9,9 @@ require_once __DIR__.'/includes/videos-template.php';
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta property="og:image" content="https://img.icons8.com/nolan/64/playlist.png" />
+<meta property="og:title" content="Youtube Playlist" />
+<meta property="og:description" content="On this website, you can register, log in, create updates and delete youtube videos, create and delete playlists, and like videos." />
 <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Youtube Playlist</title>
